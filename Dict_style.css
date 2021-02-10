@@ -1,0 +1,79 @@
+html{
+    font-size: 20px;
+    width:300px;
+    background-color: #485461;  
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+#dict{
+    text-align: center;
+    color: currentColor;
+}
+
+#title{
+    color: white;
+}
+
+#icon{ 
+    cursor: pointer;
+}
+
+#ic{
+    visibility: collapse;
+    /* margin:10px; */
+    color: aliceblue;
+}
+
+#userInput{
+    text-align: center;
+    outline: none;
+    border-radius: 30px;
+    height: 25px;
+}
+#btn{
+    cursor: pointer;
+    height: 30px;
+    outline: none;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#myDIV{
+    color: aliceblue;
+}
+
+i{
+    color: white;
+}
+
+#icon{
+    margin: 0 5px;   
+}
+
+.proDiv{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: whitesmoke; 
+  }

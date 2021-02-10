@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Dictionary",
+    "version": "1.0",
+    "description": "A dictionary extension that fetches the meaning, pronunciation and usage.",
+    "icons": {
+        "16": "dictionary.png"
+    },
+    "browser_action": {
+        "default_icon": "dictionary.png",
+        "default_popup": "Dict_index.html"
+    }
+}
